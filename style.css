@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'literata', serif;
+    font-size: 16px;
+}
+
+.highlight {
+    color: #f5851c;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 9px 20px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #f5851c;
+    color:#f5851c;
+    background: none;
+    transition: 0.15s;
+}
+
+button:hover {
+    background-color: #f5851c;
+    border-color: #f5851c;
+    color: white;
+}
+
+button.CTA{
+    background-color: #f5851c;
+    border-color: #f5851c;
+    border-style: solid;
+    color: white;
+}
+
+button.CTA:hover{
+    opacity: 0.8;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    background-color: #323232;
+}
+
+.logo{
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:  #f5851c;
+    text-decoration: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.navbar__item a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__item a:hover{
+    color: #f5851c;
+    border-bottom: #f5851c 2px solid;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5cc;
+}
+
+.landing{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+}
+
+.landing__text h1{
+    font-size: 75px;
+    text-align: left;
+}
+
+.landing__text p{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+
+.landing__button {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    padding: 30px 0;
+}
+
+.landing__button button {
+    margin-right: 25px;
+}
+
+.landing__img {
+    flex-basis: 40%;
+}
+
+.landing__img img {
+    max-width: 100%;
+}
+
+.portofolio h1 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.portofolio {
+    background-color: rgb(209, 209, 191);
+}
+
+.about {
+    padding: 20px 10%;
+    background-color: #f5f5cc;
+}
+
+.about__text {
+    text-align: left;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: #323232;
+}
+
+p.footer__text {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
