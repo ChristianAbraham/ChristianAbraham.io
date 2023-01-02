@@ -7,6 +7,9 @@
     scroll-behavior: smooth;
 }
 
+@media (max-width: 768px){
+    
+}
 
 
 h1 {
@@ -76,6 +79,14 @@ header{
     font-size: 20px;
     color:  #f5851c;
     text-decoration: none;
+}
+
+.hamburger{
+    display: none;
+}
+
+.navbar input{
+    display: none;
 }
 
 .navbar li{
