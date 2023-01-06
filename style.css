@@ -65,6 +65,7 @@ input[type=checkbox]{
     .hamburger{
         display: block;
         color: #cf6b0e;
+        font-weight: bold;
     }
     
     .landing {
