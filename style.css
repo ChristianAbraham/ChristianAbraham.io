@@ -29,7 +29,44 @@
     background: #cf6b0e; 
   }
 
-@media (max-width: 768px){
+
+input[type=checkbox]{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+@media (max-width: 950px){
+    
+    .menu{
+        display: none;
+        position: absolute;
+        right: 0;
+        left: 0;
+        background-color: #323232;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+
+    .menu li{
+        margin: 15px;
+    }
+
+    input[type=checkbox]:checked ~ .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger{
+        display: block;
+        color: #cf6b0e;
+    }
+    
     .landing {
         flex-direction: column-reverse;
     }
@@ -115,7 +152,6 @@ header{
 }
 
 .logo{
-    justify-content: flex-start;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -123,18 +159,12 @@ header{
     text-decoration: none;
 }
 
-.hamburger{
-    display: none;
-}
-
-.navbar input{
-    display: none;
-}
 
 .navbar li{
     display: inline-block;
     padding: 0 50px;
 }
+
 
 .navbar__item a{
     font-family: 'Montserrat', sans-serif;
