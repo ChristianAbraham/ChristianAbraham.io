@@ -75,21 +75,25 @@ input[type=checkbox]{
     .landing__text {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
     .landing__text h1{
         padding-top: 20px;
+        font-size: 40px !important;
         text-align: center !important;
     }
 
     .landing__text p{
-        padding: 7px 0 !important;
+        font-size: 15px !important;
+        padding-top: 5px !important;
     }
 
     .landing__button {
-        display: none;
+        display: block;
     }
+
 }
 
 h1 {
