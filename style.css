@@ -214,9 +214,6 @@ main{
     padding: 30px 0;
 }
 
-.landing__button button {
-    margin-right: 25px;
-}
 
 .landing__img {
     width: 40%;
@@ -235,6 +232,33 @@ main{
     background-color: rgb(209, 209, 191);
 }
 
+.portofolio .portofolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 10%;
+}
+
+.portofolio-container .portofolio-object {
+    height: 400px;
+    width: 300px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px;
+}
+
+.object-text p {
+    padding: 3% 10px;
+}
+
+.portofolio-object:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 
 .about {
     padding: 20px 10%;
